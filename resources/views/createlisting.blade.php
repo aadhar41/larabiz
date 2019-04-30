@@ -5,7 +5,7 @@
 <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Create Listing</div>
+                <div class="card-header">Create Listing <a href="/dashboard" class="btn btn-outline-primary float-right" title="">Go Back</a> </div>
 
                 <div class="card-body">
                     {{ Form::open(['action' => 'ListingsController@store', 'method' => 'POST']) }}
